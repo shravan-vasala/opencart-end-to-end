@@ -13,10 +13,12 @@ public class TC_001_AccountRegistrationTest extends BaseClass {
 	@Test
 	public void test_account_Registration() {
 		try {
+			logger.info("Started TC_001_AccountRegistrationTest");
 			HomePage home = new HomePage(driver);
 			home.clickMyAccount();
 			home.clickRegister();
 			
+			logger.info("Started registration");
 			AccountRegistrationPage registration = new AccountRegistrationPage(driver);
 			String name = randomString().toUpperCase();
 			registration.setFirstName(name);
@@ -29,11 +31,16 @@ public class TC_001_AccountRegistrationTest extends BaseClass {
 			registration.clickPrivacy();
 			registration.clickContinue();
 			
+			
 			String message = registration.getConfirmationMessage();
+			logger.info("confirming message");
 			Assert.assertEquals(message, "Your Account Has Been Created!");
 			
 		} catch(Exception e) {
+			logger.info("Failed Message");
 			Assert.fail();
 		}
+		logger.info("Finished TC_001_AccountRegistrationTest");
+
 	}
 }

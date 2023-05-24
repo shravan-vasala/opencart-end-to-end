@@ -1,0 +1,4 @@
+16:32:58.252 [main] INFO  testCases.TC_001_AccountRegistrationTest - Started TC_001_AccountRegistrationTest
+16:33:00.128 [main] INFO  testCases.TC_001_AccountRegistrationTest - Started registration
+16:33:04.051 [main] INFO  testCases.TC_001_AccountRegistrationTest - confirming message
+16:33:04.055 [main] INFO  testCases.TC_001_AccountRegistrationTest - Finished TC_001_AccountRegistrationTest
