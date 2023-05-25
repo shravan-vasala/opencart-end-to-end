@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-25T16:39:44 IST" name="MasterSuite" finished-at="2023-05-25T16:40:02 IST" duration-ms="17448">
+  <suite started-at="2023-05-25T21:19:10 IST" name="MasterSuite" finished-at="2023-05-25T21:19:32 IST" duration-ms="21978">
     <groups>
-      <group name="Master">
-        <method signature="TC_001_AccountRegistrationTest.test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@4c402120]" name="test_account_Registration" class="testCases.TC_001_AccountRegistrationTest"/>
-      </group> <!-- Master -->
-      <group name="Regression">
-        <method signature="TC_001_AccountRegistrationTest.test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@4c402120]" name="test_account_Registration" class="testCases.TC_001_AccountRegistrationTest"/>
-      </group> <!-- Regression -->
     </groups>
-    <test started-at="2023-05-25T16:39:44 IST" name="Test" finished-at="2023-05-25T16:40:02 IST" duration-ms="17448">
-      <class name="testCases.TC_001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@4c402120]" started-at="2023-05-25T16:39:45 IST" name="setup" finished-at="2023-05-25T16:39:55 IST" duration-ms="10574" status="PASS">
+    <test started-at="2023-05-25T21:19:10 IST" name="Test" finished-at="2023-05-25T21:19:32 IST" duration-ms="21978">
+      <class name="testCases.TC_005_AddToCartPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_005_AddToCartPageTest@c730b35]" started-at="2023-05-25T21:19:11 IST" name="setup" finished-at="2023-05-25T21:19:23 IST" duration-ms="11964" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@4c402120]" started-at="2023-05-25T16:39:55 IST" name="test_account_Registration" finished-at="2023-05-25T16:40:01 IST" duration-ms="5916" status="PASS">
+        <test-method signature="test_addToCart()[pri:0, instance:testCases.TC_005_AddToCartPageTest@c730b35]" started-at="2023-05-25T21:19:23 IST" name="test_addToCart" finished-at="2023-05-25T21:19:32 IST" duration-ms="9103" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_account_Registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@4c402120]" started-at="2023-05-25T16:40:01 IST" name="tearDown" finished-at="2023-05-25T16:40:02 IST" duration-ms="314" status="PASS">
+        </test-method> <!-- test_addToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_005_AddToCartPageTest@c730b35]" started-at="2023-05-25T21:19:32 IST" name="tearDown" finished-at="2023-05-25T21:19:32 IST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+      </class> <!-- testCases.TC_005_AddToCartPageTest -->
     </test> <!-- Test -->
   </suite> <!-- MasterSuite -->
 </testng-results>

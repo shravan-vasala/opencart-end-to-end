@@ -110,3 +110,8 @@
 16:53:08.752 [main] INFO  testCases.TC_001_AccountRegistrationTest - Finished TC_001_AccountRegistrationTest
 16:53:17.954 [main] INFO  testCases.TC_002_LoginTest - Started TC_002_LoginTest
 16:53:21.162 [main] INFO  testCases.TC_002_LoginTest - Started TC_002_LoginTest
+19:16:50.848 [main] INFO  testCases.TC_004_SearchProductTest - Started TC_004_SearchProductTest
+19:20:56.558 [main] INFO  testCases.TC_004_SearchProductTest - Started TC_004_SearchProductTest
+19:22:02.876 [main] INFO  testCases.TC_004_SearchProductTest - Started TC_004_SearchProductTest
+21:19:23.591 [main] INFO  testCases.TC_005_AddToCartPageTest - Started TC_005_AddToCartPageTest
+21:19:32.672 [main] INFO  testCases.TC_005_AddToCartPageTest - Failed TC_005_AddToCartPageTest
